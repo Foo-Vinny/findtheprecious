@@ -1,0 +1,54 @@
+body {
+    font-family:  Sans-Serif;
+  }
+  
+  .wanted {
+    text-align: center;
+  }
+  .wanted_img {
+    opacity: 0.4;
+  }
+  
+  .reward {
+    position: absolute;
+    background: white ;
+    opacity: 0.8;
+    border-radius: 1vw;
+    padding: auto;
+    top: 1vw;
+    left: 2vw;
+    right: 2vw;
+    font-size: 2vw;
+  }
+  
+  .gold {
+    color: #FF7F50;
+  }
+  
+  .name {
+    position: absolute;
+    top: 10vw;
+    left: 5vw;
+    right: 5vw;
+    font-size: 4vw;
+    color: white;
+  
+    
+  }
+  
+  .wanted:hover .wanted_img {
+    opacity: 1; 
+  }
+  .wanted:hover .reward{
+    opacity: 0;
+  }
+  
+  .wanted:hover .name {
+    position: absolute;
+    top: 20vw;
+    left: 8.5vw;
+    right: 8.5vw;
+    font-size: 2vw;
+    color: white;
+  
+  }

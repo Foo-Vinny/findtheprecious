@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Find the precious web page</title>
 </head>
 
@@ -87,10 +88,10 @@
                 <h1>Fellows wanted dead (or alive if you whant to eat them later)</h1>
             </div>
 
-            <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
-                <li class="nav-item"><a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+            <ul class="nav nav-pills justify-content-center mb-2" id="pills-tab" role="tablist">
+                <li class="nav-item"><a class="nav-link active" id="pills-wanted-tab" data-toggle="pill" href="#pills-wanted"
                         role="tab" aria-controls="pills-home" aria-selected="true">Most wanted</a></li>
-                <li class="nav-item"><a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+                <li class="nav-item"><a class="nav-link" id="pills-dangerous-tab" data-toggle="pill" href="#pills-dangerous"
                         role="tab" aria-controls="pills-contact" aria-selected="false">Most dangerous</a></li>
                 <li class="nav-item"><a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
                         role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a></li>
@@ -99,27 +100,42 @@
             <!-- Section Fellow ----- Onglet Most Wanted -->
 
             <div class="tab-content" id="pills-tabcontent">
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="tab-pane fade show active" id="pills-wanted" role="tabpanel" aria-labelledby="pills-wanted-tab">
 
                     <div class="card-deck active">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="https://via.placeholder.com/300" alt="placeholder">
+                            <div class="wanted">
+                                <img class="card-img-top wanted_img" src="http://images.innoveduc.fr/integration_gandalf.png"
+                                    alt="gandalf">
+                                <div class="reward"> reward <span class="gold">1000</span> golden coins </div>
+                                <div class="name"> Gandalf </div>
+                            </div>
                             <div class="card-body">
                                 <h2>The wizard</h2>
                                 <p>Small description</p>
                             </div>
                         </div>
 
-                        <div class="card" style="width: 18rem">
-                            <img class="card-img-top" src="https://via.placeholder.com/300" alt="placeholder">
+                        <div class="card">
+                            <div class="wanted">
+                                    <img class="card-img-top wanted_img" src="http://images.innoveduc.fr/integration_gandalf.png"
+                                        alt="gandalf">
+                                    <div class="reward"> reward <span class="gold">1000</span> golden coins </div>
+                                    <div class="name"> Gandalf </div>
+                                </div>
                             <div class="card-body">
                                 <h2>Hobbit #3</h2>
                                 <p>Small description</p>
                             </div>
                         </div>
 
-                        <div class="card" style="width: 18rem">
-                            <img class="card-img-top" src="https://via.placeholder.com/300" alt="placeholder">
+                        <div class="card">
+                            <div class="wanted">
+                                    <img class="card-img-top wanted_img" src="http://images.innoveduc.fr/integration_gandalf.png"
+                                        alt="gandalf">
+                                    <div class="reward"> reward <span class="gold">1000</span> golden coins </div>
+                                    <div class="name"> Gandalf </div>
+                                </div>
                             <div class="card-body">
                                 <h2>Yummy dwarf</h2>
                                 <p>Small description</p>
@@ -130,64 +146,94 @@
 
                 <!-- Section Fellow ------ onglet Most Dangerous -->
 
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="tab-pane fade" id="pills-dangerous" role="tabpanel" aria-labelledby="pills-dangerous-tab">
 
-                    <div class="card-deck active">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="https://via.placeholder.com/300" alt="placeholder">
-                            <div class="card-body">
-                                <h2>The wizard (2)</h2>
-                                <p>Small description</p>
+                        <div class="card-deck active">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="wanted">
+                                        <img class="card-img-top wanted_img" src="http://images.innoveduc.fr/integration_gandalf.png"
+                                            alt="gandalf">
+                                        <div class="reward"> reward <span class="gold">1000</span> golden coins </div>
+                                        <div class="name"> Gandalf </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h2>The wizard</h2>
+                                        <p>Small description</p>
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <div class="wanted">
+                                            <img class="card-img-top wanted_img" src="http://images.innoveduc.fr/integration_gandalf.png"
+                                                alt="gandalf">
+                                            <div class="reward"> reward <span class="gold">1000</span> golden coins </div>
+                                            <div class="name"> Gandalf </div>
+                                        </div>
+                                    <div class="card-body">
+                                        <h2>Hobbit #3</h2>
+                                        <p>Small description</p>
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <div class="wanted">
+                                            <img class="card-img-top wanted_img" src="http://images.innoveduc.fr/integration_gandalf.png"
+                                                alt="gandalf">
+                                            <div class="reward"> reward <span class="gold">1000</span> golden coins </div>
+                                            <div class="name"> Gandalf </div>
+                                        </div>
+                                    <div class="card-body">
+                                        <h2>Yummy dwarf</h2>
+                                        <p>Small description</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="card" style="width: 18rem">
-                            <img class="card-img-top" src="https://via.placeholder.com/300" alt="placeholder">
-                            <div class="card-body">
-                                <h2>Hobbit #3 (2)</h2>
-                                <p>Small description</p>
-                            </div>
-                        </div>
-
-                        <div class="card" style="width: 18rem">
-                            <img class="card-img-top" src="https://via.placeholder.com/300" alt="placeholder">
-                            <div class="card-body">
-                                <h2>Yummy dwarf (2)</h2>
-                                <p>Small description</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Section fellow ------- onglet Already Captured -->
 
                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
 
-                    <div class="card-deck active">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="https://via.placeholder.com/300" alt="placeholder">
-                            <div class="card-body">
-                                <h2>The wizard (3)</h2>
-                                <p>Small description</p>
+                        <div class="card-deck active">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="wanted">
+                                        <img class="card-img-top wanted_img" src="http://images.innoveduc.fr/integration_gandalf.png"
+                                            alt="gandalf">
+                                        <div class="reward"> reward <span class="gold">1000</span> golden coins </div>
+                                        <div class="name"> Gandalf </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h2>The wizard</h2>
+                                        <p>Small description</p>
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <div class="wanted">
+                                            <img class="card-img-top wanted_img" src="http://images.innoveduc.fr/integration_gandalf.png"
+                                                alt="gandalf">
+                                            <div class="reward"> reward <span class="gold">1000</span> golden coins </div>
+                                            <div class="name"> Gandalf </div>
+                                        </div>
+                                    <div class="card-body">
+                                        <h2>Hobbit #3</h2>
+                                        <p>Small description</p>
+                                    </div>
+                                </div>
+        
+                                <div class="card">
+                                    <div class="wanted">
+                                            <img class="card-img-top wanted_img" src="http://images.innoveduc.fr/integration_gandalf.png"
+                                                alt="gandalf">
+                                            <div class="reward"> reward <span class="gold">1000</span> golden coins </div>
+                                            <div class="name"> Gandalf </div>
+                                        </div>
+                                    <div class="card-body">
+                                        <h2>Yummy dwarf</h2>
+                                        <p>Small description</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <div class="card" style="width: 18rem">
-                            <img class="card-img-top" src="https://via.placeholder.com/300" alt="placeholder">
-                            <div class="card-body">
-                                <h2>Hobbit #3 (3)</h2>
-                                <p>Small description</p>
-                            </div>
-                        </div>
-
-                        <div class="card" style="width: 18rem">
-                            <img class="card-img-top" src="https://via.placeholder.com/300" alt="placeholder">
-                            <div class="card-body">
-                                <h2>Yummy dwarf (3)</h2>
-                                <p>Small description</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
