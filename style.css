@@ -2,6 +2,10 @@ body {
   font-family: Sans-Serif;
 }
 
+h1 {
+  font-size: 2vw;
+}
+
 .wanted {
   text-align: center;
 }
@@ -34,7 +38,10 @@ body {
   right: 1vw;
 }
 
-
+.footer a {
+  text-decoration: none;
+  color: white;
+}
 
 @media screen and (min-width: 992px) {
 
