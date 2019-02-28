@@ -1,51 +1,58 @@
 body {
-    font-family:  Sans-Serif;
-  }
-  
-  .wanted {
-    text-align: center;
-  }
-  .wanted_img {
-    opacity: 0.4;
-  }
-  
-  .reward {
-    position: absolute;
-    background: white ;
-    opacity: 0.8;
-    border-radius: 1vw;
-    padding: auto;
-    top: 1vw;
-    left: 2vw;
-    right: 2vw; 
-    font-size: 2vw;
-  }
-  
-  .gold {
-    color: #FF7F50;
-  }
-  
-  .name {
-    position: absolute;
-    top: 35%;
-    font-size: 280%;
-    color: white;
-    left: 1vw;
-    right: 1vw;
-  }
-  
+  font-family: Sans-Serif;
+}
+
+.wanted {
+  text-align: center;
+}
+
+.wanted_img {
+  opacity: 0.4;
+}
+
+.reward {
+  position: absolute;
+  background: white;
+  opacity: 0.8;
+  border-radius: 1vw;
+  top: 1vw;
+  left: 2vw;
+  right: 2vw;
+  font-size: 2vw;
+}
+
+.gold {
+  color: #FF7F50;
+}
+
+.name {
+  position: absolute;
+  top: 35%;
+  font-size: 280%;
+  color: white;
+  left: 1vw;
+  right: 1vw;
+}
+
+
+
+@media screen and (min-width: 992px) {
+
   .wanted:hover .wanted_img {
-    opacity: 1; 
+    opacity: 1;
   }
-  .wanted:hover .reward{
+
+  .wanted:hover .reward {
     opacity: 0;
   }
-  
+
   .wanted:hover .name {
     position: absolute;
     top: 65%;
     font-size: 2vw;
     color: white;
 
-  
+
   }
+
+}
