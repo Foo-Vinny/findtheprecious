@@ -1,10 +1,157 @@
-body {
-  font-family: Sans-Serif;
+@font-face {
+  font-family: 'Aniron';
+  src: url('/fonts/Aniron-Bold.eot');
+  src: url('/fonts/Aniron-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Aniron-Bold.woff2') format('woff2'),
+      url('/fonts/Aniron-Bold.woff') format('woff'),
+      url('/fonts/Aniron-Bold.ttf') format('truetype'),
+      url('/fonts/Aniron-Bold.svg#/fonts/Aniron-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
 }
 
-h1 {
-  font-size: 1rem;
+@font-face {
+  font-family: 'Party Business';
+  src:url('/fonts/partybusiness.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'AnironC';
+  src: url('/fonts/AnironC.eot');
+  src: url('/fonts/AnironC.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/AnironC.woff2') format('woff2'),
+      url('/fonts/AnironC.woff') format('woff'),
+      url('/fonts/AnironC.ttf') format('truetype'),
+      url('/fonts/AnironC.svg#/fonts/AnironC') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aniron';
+  src: url('/fonts/Aniron.eot');
+  src: url('/fonts/Aniron.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Aniron.woff2') format('woff2'),
+      url('/fonts/Aniron.woff') format('woff'),
+      url('/fonts/Aniron.ttf') format('truetype'),
+      url('/fonts/Aniron.svg#/fonts/Aniron') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AnironC';
+  src: url('/fonts/AnironC-Bold.eot');
+  src: url('/fonts/AnironC-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/AnironC-Bold.woff2') format('woff2'),
+      url('/fonts/AnironC-Bold.woff') format('woff'),
+      url('/fonts/AnironC-Bold.ttf') format('truetype'),
+      url('/fonts/AnironC-Bold.svg#/fonts/AnironC-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tengwar Annatar';
+  src: url('/fonts/TengwarAnnatar-Italic.eot');
+  src: url('/fonts/TengwarAnnatar-Italic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/TengwarAnnatar-Italic.woff2') format('woff2'),
+      url('/fonts/TengwarAnnatar-Italic.woff') format('woff'),
+      url('/fonts/TengwarAnnatar-Italic.ttf') format('truetype'),
+      url('/fonts/TengwarAnnatar-Italic.svg#/fonts/TengwarAnnatar-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Tengwar Annatar';
+  src: url('/fonts/TengwarAnnatar-Bold.eot');
+  src: url('/fonts/TengwarAnnatar-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/TengwarAnnatar-Bold.woff2') format('woff2'),
+      url('/fonts/TengwarAnnatar-Bold.woff') format('woff'),
+      url('/fonts/TengwarAnnatar-Bold.ttf') format('truetype'),
+      url('/fonts/TengwarAnnatar-Bold.svg#/fonts/TengwarAnnatar-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tengwar Annatar';
+  src: url('/fonts/TengwarAnnatar.eot');
+  src: url('/fonts/TengwarAnnatar.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/TengwarAnnatar.woff2') format('woff2'),
+      url('/fonts/TengwarAnnatar.woff') format('woff'),
+      url('/fonts/TengwarAnnatar.ttf') format('truetype'),
+      url('/fonts/TengwarAnnatar.svg#/fonts/TengwarAnnatar') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tengwar Annatar';
+  src: url('/fonts/TengwarAnnatar-BoldItalic.eot');
+  src: url('/fonts/TengwarAnnatar-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/TengwarAnnatar-BoldItalic.woff2') format('woff2'),
+      url('/fonts/TengwarAnnatar-BoldItalic.woff') format('woff'),
+      url('/fonts/TengwarAnnatar-BoldItalic.ttf') format('truetype'),
+      url('/fonts/TengwarAnnatar-BoldItalic.svg#/fonts/TengwarAnnatar-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+body {
+  font-family: 'Party Business';
+}
+
+#fellows , #hunters, #join{
+  background-image: url(images/bg_light.png)
+}
+
+#reward , #ring , #contact {
+  background-image: url(images/bg_dark.png);
+  color: white;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-family: 'AnironC';
+}
+
+h5 {
+  font-size: 0.8em;
+  padding-right: 10px;
+  color: white;
+}
+
+h2 > span {
+  font-size: 0.5em;
+}
+
+.navbar {
+  background-color: #FF7F50;
+
+}
+
+
+.bd-example {
+  margin-top:52px;
+}
+
+.carousel-caption {
+  top: 30%;
+}
+
+.symbole_titre {
+  font-family: 'Tengwar Annatar';
+  font-size: 0.8em;
+  font-style: italic;
+  color: #FF7F50;
+}
+
 
 .wanted {
   text-align: center;
@@ -15,6 +162,7 @@ h1 {
 }
 
 .reward {
+  display:none;
   position: absolute;
   background: white;
   opacity: 0.8;
@@ -22,20 +170,33 @@ h1 {
   top: 1vw;
   left: 2vw;
   right: 2vw;
-  font-size: 15px;
-}
-
-.gold {
-  color: #FF7F50;
+  font-size: 2em;
 }
 
 .name {
   position: absolute;
-  top: 30%;
-  font-size: 150%;
+  top: 35%;
+  font-size: 280%;
   color: white;
   left: 1vw;
   right: 1vw;
+}
+
+.gold { 
+  color: #FF7F50;
+}
+
+.btn {
+  color: #FF7F50;
+  
+}
+
+.navbar-toggler-icon{
+}
+
+.dead {
+ background: none;
+ border-radius: none;
 }
 
 .footer a {
@@ -43,6 +204,35 @@ h1 {
   color: white;
 }
 
+.nav a {
+  font-size: 150%;
+}
+
+
+.fellows .nav .active{
+  color: #FF7F50;
+  text-decoration: underline;
+}
+
+.fellows .nav .active::after {
+  content:"  b";
+  font-family: 'Tengwar Annatar';
+}
+
+.fellows .nav .active::before {
+  content:"  b";
+  font-family: 'Tengwar Annatar';
+}
+
+del {
+  text-decoration: line-through;
+  text-decoration-color: #FF7F50;
+}
+
+.card-body {
+  color: white;
+  font-size: 1.3em;
+}
 @media screen and (min-width: 992px) {
 
   .name {
@@ -68,7 +258,9 @@ h1 {
     font-size: 2vw;
     color: white;
 
-
   }
 
+  .reward {
+    display:inline;
+  }
 }
